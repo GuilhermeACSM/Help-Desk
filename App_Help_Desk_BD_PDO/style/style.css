@@ -1,0 +1,229 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Cartões */
+.card-abrir-chamado, .card-home {
+    padding: 30px 0 0 0;
+    width: 100%;
+
+}
+
+/* Cards */
+.card {
+    display: flex;
+    gap: 10px;
+}
+
+#card-body-gui {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start; 
+}
+
+#card-body-gui > div {
+    flex: 1 1 calc(25% - 16px);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    min-width: 250px;
+}
+
+#card-body-gui > div h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+#card-body-gui > div p {
+    margin: 4px 0;
+    color: #555;
+}
+
+#card-body-gui > div strong {
+    color: #000;
+}
+
+
+.card img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card p {
+    font-weight: 600;
+    color: #343a40;
+}
+
+.card-gui-p #p-andamento {
+    text-decoration: none;
+    color: darkorange;
+}.card-gui-p #p-finalizado {
+    text-decoration: none;
+    color: teal;
+}
+
+
+/* Formulários */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo do botão de sair */
+.btn-sair {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-sair:hover {
+    background-color: #c82333; 
+    transform: scale(1.05); 
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-sair:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5); /
+}
+
+/* Estilo do botão de voltar */
+.btn-voltar {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    font-weight: 600; 
+    padding: 8px 18px;
+    border-radius: 25px; 
+    text-align: center;
+    font-size: 0.9rem; 
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-voltar:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-voltar:focus {
+    outline: none; 
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.5);
+}
+
+#gerenciarBtn {
+    padding: 5px;
+    margin: 2px;
+    min-width: auto;
+    width: 100%;
+}
+
+
+/* home.php */
+.container-card-gui {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+  }
+  .card-gui {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(231, 231, 231);
+    width: 200px;
+  }
+  .card-gui:hover {
+    background-color: white;
+  }
+  
+  #cadastrese {
+    text-align: right;
+    color: #138496;
+    font-size: 0.8em;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+  }
+
+/* Estilo para o botão do popover */
+button[popovertarget='my-popover'] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[popovertarget='my-popover']:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o conteúdo do popover */
+#my-popover {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-size: 16px;
+    color: #333;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Mostrar o popover ao interagir com o botão */
+button[popovertarget='my-popover']:hover + #my-popover {
+    display: block;
+}
+
+
+  @media screen and (max-width: 2000px) {
+    .container-card-gui {
+      flex-wrap: wrap;
+    }
+  }
+
+
