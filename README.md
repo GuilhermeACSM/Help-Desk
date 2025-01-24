@@ -1,6 +1,11 @@
 # Help Desk Web Application 🖥️💬
 
-This is a web-based **Help Desk** application designed to manage customer service requests, track issues, and provide support through a user-friendly interface. The application is built using PHP, with two implementations for interacting with the database: one using **PDO** (PHP Data Objects) and another using traditional **MySQL** queries (without PDO). 
+This is a web-based **Help Desk** application designed to manage customer service requests, track issues, and provide support through a user-friendly interface. The application is built using PHP, with two implementations for interacting with the database: one using **PDO** (PHP Data Objects) and another using traditional **MySQL** queries (without PDO).
+
+![Imagem 1](![image](https://github.com/user-attachments/assets/c7baac43-5555-4bc0-abaa-8566a92ad808)
+)
+![Imagem 2](![image](https://github.com/user-attachments/assets/7be980ad-41ac-43ec-9cb6-df0ff133cd2b)
+)
 
 ### 🚀 Features
 
