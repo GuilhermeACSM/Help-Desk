@@ -31,7 +31,7 @@ In this version, **PDO** is used for database interaction, ensuring a more secur
   - Support for multiple databases, making the application more portable.
   
 ```php
-/* Example of PDO connection
+// Example of PDO connection
 try {
     $pdo = new PDO("mysql:host=localhost;dbname=helpdesk", "username", "password");
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
