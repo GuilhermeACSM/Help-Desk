@@ -2,15 +2,13 @@
 
 This is a web-based **Help Desk** application designed to manage customer service requests, track issues, and provide support through a user-friendly interface. The application is built using PHP, with two implementations for interacting with the database: one using **PDO** (PHP Data Objects) and another using traditional **MySQL** queries (without PDO).
 
-![Imagem 1](https://github.com/user-attachments/assets/c7baac43-5555-4bc0-abaa-8566a92ad808)
-![Imagem 2](https://github.com/user-attachments/assets/7be980ad-41ac-43ec-9cb6-df0ff133cd2b)
-
-
 ### 🚀 Features
 
 - **User Registration and Authentication**: Users can sign up, log in, and manage their accounts.
+- <img src="https://github.com/user-attachments/assets/c7baac43-5555-4bc0-abaa-8566a92ad808" width="300" />
 - **Ticket Management**: Users can create, view, and manage support tickets.
 - **Admin Panel**: Admins can view all tickets, assign them to support agents, and update ticket statuses.
+- <img src="https://github.com/user-attachments/assets/7be980ad-41ac-43ec-9cb6-df0ff133cd2b" width="300" />
 - **Responsive Design**: The application is mobile-friendly and works on various devices.
 - **Search Functionality**: Users can search for tickets by status, date, or priority.
   
